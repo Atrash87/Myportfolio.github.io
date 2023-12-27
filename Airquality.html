@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Airquality - Hasan's Analytics: Elevating Insights </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+		   body {
+            margin:  100px 300px 100px 300px; /* Adjust the margin as needed */
+        }
+		
+
+		.scrollable-content {
+			max-height: 200px; /* Adjust the maximum height as needed */
+    overflow-y: scroll;
+    border: 3px solid #53a7eb; /* Add border around the scrollable content */
+	max-height: 400px;
+	width: 800px;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    z-index: 1;
+  }
+	</style>
+	</head>
+	<body class="Airquality is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">My portfolio </a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="https://m2.mtmt.hu/gui2/?mode=search&query=publication;labelOrMtid;eq;hasan%20atrash">Publication list</a></li>
+								<li><a href="https://www.linkedin.com/in/hasan-atrash-657b0413a">LinkedIn</a></li>
+								<li><a href="https://github.com/Atrash87">GitHUb</a></li>
+								<li><a href="https://public.tableau.com/app/profile/hasan.atrash/vizzes">Tableau</a></li>
+								<li><a href="About me.html">About me</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<!-- 	<section id="menu">
+
+						<!-- Search -->
+					<!-- 		<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+						<!-- 	<section>
+					 		<ul class="links">
+									<li>
+										<a href="#">
+											<h3>Lorem ipsum</h3>
+											<p>Feugiat tempus veroeros dolor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Dolor sit amet</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Feugiat veroeros</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Etiam sed consequat</h3>
+											<p>Porta lectus amet ultricies</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+						<!-- 	<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">USA Air quality Index By State 1980-2022</a></h2>
+										<p><a href="https://public.tableau.com/app/profile/hasan.atrash/viz/Renewable_Energy_Analysis_17025618216780/Dashboard1" target="_blank">Air Quality Insights Dashboard</a>.</p>
+
+									
+								</header>
+								
+								
+																
+								<h2  style="color: rgb(238, 101, 96); font-weight: bold;"> 1.Introduction</h2>
+
+<p class="justified-text">Welcome to my data analysis portfolio, where I delve into the intricate dynamics of air quality using a comprehensive dataset. This exploration focuses on revealing key insights and trends in air quality conditions, utilizing statistical analyses and visualizations. I've utilized a comprehensive dataset from <a style="color: rgb(99, 189, 231);" href="https://www.kaggle.com/datasets/adampq/air-quality-index-by-state-1980-2022" target="_blank">Kaggle</a>
+	</p>
+								
+<h2  style="color: rgb(238, 101, 96); font-weight: bold;"> 2.Project Overview</h2>
+<h3  style="color: rgb(238, 101, 96); font-weight: bold;"> 2.1 Objective</h3>
+
+<p class="justified-text">This project aims to uncover relationships between population estimates and air quality, compare good vs unhealthy days across states, analyze overall air quality trends, and break down air quality metrics by state. The dataset under consideration provides a wealth of information spanning multiple years.. </p>
+<h3  style="color: rgb(238, 101, 96); font-weight: bold;"> 2.2 dataset</h3>
+<p class="justified-text">The dataset, available on <a style="color: rgb(99, 189, 231);" href="https://www.kaggle.com/datasets/adampq/air-quality-index-by-state-1980-2022" target="_blank">Kaggle</a>
+	, spans from 1980-2022, providing a perspective on air quality in the united states.</p>
+
+<h2  style="color: rgb(238, 101, 96); font-weight: bold;"> 3. SQL codes </h2>
+<h3  style="color: rgb(238, 101, 96); font-weight: bold;"> 3.1 Relationship Between Population Estimates and Air Quality Index</h3>
+<p class="justified-text">To understand the connection between population estimates and air quality, I calculated the correlation coefficient between the
+	 "Pop_Est" and "Median_AQI" columns using SQL as described in the table SQL below.</p>
+	 <p> The coefficient of 0.7694 indicates a strong positive relationship, suggesting that as population estimates increase, 
+		the air quality index tends to rise as well. This emphasizes the significant impact of population density on air quality.</p>
+		<p> I also copmare the average population with the average max air quality index (AQI) in each states using SQL as described in the SQL table and depicted in Figure 1.
+	 
+			<h3>#SQL:Relationship Between Population Estimates<p> and Air Quality Index </h3>
+<div class="scrollable-content">
+	 <p style="color: rgb(0, 128, 68);"> --correlation coefficient between the Max_AQI and Pop_Est 
+	 <p>select
+
+		<p>correl(Pop_Est, Median_AQI) As CorrelationCoefficient</p>
+
+		<p>from dbo.['AQI By State 1980-2022$']</p>
+	
+		<p style="color: rgb(0, 128, 68);"> --Average AQI and average population for each state
+		<p > SELECT
+			<p >State,
+				<p>AVG(Max_AQI) AS Average_AQI,
+					<p >AVG(Pop_Est) AS Average_Population
+						<p>FROM
+							<p> dbo.[AQI By State 1980-2022$']
+								<p>GROUP BY
+									<p>State
+										<p>ORDER BY
+											<p>State;
+											</div>
+											<br>
+											<h3># Figure 1:Relationship Between Population Estimates<p> and Air Quality Index </h3>
+
+											<span class="image featured"><img src="images/population.JPG" alt="" /></span>
+
+
+<br>
+
+<h3  style="color: rgb(238, 101, 96); font-weight: bold;"> 3.2 Overall Air Quality Trends:</h3>
+<p>Analyzing average AQI values over the years reveals fluctuations, indicating variations in air quality. Peak years, such as 1999-2001, show potential challenges, while periods like 2004 and 2013 exhibit improvements depicted in Figure 2.
+	 Recent years (2020-2022) suggest a potential increase, emphasizing the need for further investigation. Overall,
+	 understanding the long-term trend is crucial for effective air quality management.</p>
+<h3>SQL: trends in air quality over the years:</h3>
+	<p style="color: rgb(0, 128, 68);">SELECT</p>
+    <p style="color: rgb(0, 128, 68);">Year,
+    <p style="color: rgb(0, 128, 68);">cast (avg(Max_AQI) as decimal (10,2)) AS Average_AQI
+	<p style="color: rgb(0, 128, 68);">FROM
+		<p style="color: rgb(0, 128, 68);">  dbo.['AQI By State 1980-2022$']
+			<p style="color: rgb(0, 128, 68);">GROUP BY
+				<p style="color: rgb(0, 128, 68);"> Year
+					<p style="color: rgb(0, 128, 68);">ORDER BY
+						<p style="color: rgb(0, 128, 68);">Year;
+
+
+
+<h3>#Figure 2 trends in air quality over the years</h3> 
+
+<span class="image featured"><img src="images/trends.JPG" alt="" /></span>
+					
+								
+<br>
+<h2  style="color: rgb(238, 101, 96); font-weight: bold;"> 4.Insights and observations </h2>
+<h4>Key Observations:</h4>
+<ul>
+	<li>The average Air Quality Index (AQI) has varied significantly over the years.</li>
+	<li>Peak years include 1999, 2000, and 2001, with higher average AQI values.</li>
+	<li>Improvements are evident in 2004 and 2013.</li>
+	<li>Recent years (2020-2022) show potential fluctuations and require further investigation.</li>
+
+  </ul>
+  
+  <h4> Relationship Between Population Estimates and AQI:</h4>
+  <ul>
+	<li>Correlation Coefficient: 0.7694</li>
+	<li>Insight: A strong positive correlation indicates that as population estimates increase, the air quality index tends to rise.</li>
+	
+  </ul>
+
+<br>
+<p style="color: rgb(125, 181, 253);" ><a href="https://public.tableau.com/app/profile/hasan.atrash/viz/AirqualityIndexByState1980-2022/Dashboard1" target="_blank">See the complete Air quality Index By State 1980-2022 Dashboard by clicking here.</a>.</p>
+
+
+									
+
+
+					
+			
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
